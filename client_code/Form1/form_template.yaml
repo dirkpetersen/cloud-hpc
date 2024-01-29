@@ -12,7 +12,29 @@ components:
     properties: {role: outlined-card}
     type: ColumnPanel
     layout_properties: {grid_position: 'TSGDRF,JBIVBG'}
+  - name: outlined_1
+    properties: {role: outlined}
+    type: TextBox
+    layout_properties: {grid_position: 'HCKXXF,FWNCTE'}
+    event_bindings: {pressed_enter: outlined_1_pressed_enter}
 - type: FlowPanel
   properties: {}
   name: navbar_links
   layout_properties: {slot: nav-right}
+- name: column_panel_1
+  properties: {visible: true}
+  type: ColumnPanel
+  layout_properties: {slot: left-nav}
+  components:
+  - name: link_1
+    properties: {text: User}
+    type: Link
+    layout_properties: {grid_position: 'BKCNLZ,URWNSH'}
+  - name: link_2
+    properties: {text: Projects, bold: true}
+    type: Link
+    layout_properties: {grid_position: 'BWBCWI,MBEXZZ'}
+  - name: link_4
+    properties: {text: New Project}
+    type: Link
+    layout_properties: {grid_position: 'SKCOBQ,MPCQPZ'}
