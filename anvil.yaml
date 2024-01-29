@@ -11,6 +11,9 @@ services:
 - source: /runtime/services/google.yml
   client_config: {}
   server_config: {enc_delegation_refresh_token: MHhcRC+t881HTUmo6/ynxSEcCP10RhkLXcdLBEN+SvjxGYr6G3ATxTpZB3eOc7caYxu8pPop0EJFgbDlwn5xZvZ+cvrN7jafW6qWTWsyXIUVxk8iUFP7hoTw4yxqDuDdY/q/HSm4mnYOYfB+Zca9/iStmCAFKoVriZLVFd+h52S85x3wemKM3Am8E80+otASoOQDLdnVFMmWMoSvbmDTVya8e+WstsM6PnTnFpY7ODWq9bCYzRovFbQaH0sl/+Ij3a9wnHEXb7MKff4Fbu1nYVIrQrixvlO/GaF1QH+9gJkGgDFL78pEz1qco0Sr0A==}
+- source: /runtime/services/anvil/secrets.yml
+  client_config: {}
+  server_config: {}
 package_name: Cloud_HPC
 allow_embedding: false
 name: Cloud HPC
@@ -59,4 +62,5 @@ db_schema:
     server: full
     columns: []
     title: Projects
+secrets: {}
 renamed: true
