@@ -35,6 +35,6 @@ components:
     type: Link
     layout_properties: {grid_position: 'BWBCWI,MBEXZZ'}
   - name: link_4
-    properties: {text: New Project}
+    properties: {text: New Projects}
     type: Link
     layout_properties: {grid_position: 'SKCOBQ,MPCQPZ'}
